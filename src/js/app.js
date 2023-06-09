@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const cell = border.querySelectorAll(".game_field_cell");
   const img = document.createElement("img");
   img.setAttribute("src", goblin);
-  const itervalChangeImg = setInterval(() => {
+  setInterval(() => {
     const element = random(
       Array.from(cell).filter((el) => !el.querySelector("img"))
     );
