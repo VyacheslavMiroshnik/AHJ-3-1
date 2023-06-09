@@ -1,0 +1,22 @@
+body {
+    color: #999;
+}
+
+.game_field {
+    display: flex;
+    width: 600px;
+    height: auto;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-wrap: wrap;
+
+    margin: auto;
+}
+.game_field_cell { 
+    width: 148px;
+    height: 150px;
+    border: solid 1px black;
+    margin: auto;
+    text-align: center;
+
+}
