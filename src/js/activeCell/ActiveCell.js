@@ -48,7 +48,7 @@ export default class ActiveCell {
     body.insertAdjacentHTML("afterbegin", string);
   }
   addInterval() {
-    this.interval = setInterval(this.randomPositioned, 2000);
+    this.interval = setInterval(this.randomPositioned, 1000);
   }
   clearInterval() {
     clearInterval(this.interval);
