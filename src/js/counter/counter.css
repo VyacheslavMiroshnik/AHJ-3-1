@@ -1,0 +1,12 @@
+.count_container{
+    display: flex;
+    justify-content: space-between;
+    font-size: 40px;
+    
+}
+.counter_win {
+    color: green;
+}
+.counter_lose{
+    color: red;
+}

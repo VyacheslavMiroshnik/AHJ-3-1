@@ -1,0 +1,13 @@
+.active_cell:hover {
+    cursor: url(../../img/cursorType/hammer.png),no-drop;
+}
+.active_cell {
+    width: 100%;
+    height: 100%;
+    background:no-repeat url(../../img/goblin.png) center;
+}
+.game_lose {
+    color:red;
+    text-align: center;
+    font-size: 80px;
+}
